@@ -91,9 +91,7 @@ A noticeable frequency shift occurs between simulation and measurement. The repo
 The repository contains the CST model and the original CST project archive:
 
 ```text
-CST_Model/
-├── CST_SAFIT.cst
-└── CST_SAFIT_2_ProjectArchive.zip
+CST_SAFIT.cst
 ```
 
 Open `CST_SAFIT.cst` using a compatible version of **CST Studio Suite**. The project archive is included as an additional backup/reference copy.
@@ -118,7 +116,7 @@ Figures/
 The complete lab report is included here:
 
 ```text
-Documentation/microwave_engineering_lab_report.pdf
+mw.pdf
 ```
 
 The report covers the antenna design, geometrical dimensions, design evolution, simulated results, fabrication, experimental results, simulated-versus-measured comparison, engineering-problem discussion, conclusion, and references.
@@ -132,42 +130,3 @@ The report covers the antenna design, geometrical dimensions, design evolution, 
 
 The proposed antenna is intended for short-range wireless communication applications in the 2.4 GHz ISM band, including potential Wi-Fi, IoT, and wireless sensor-network applications.
 
-## Repository Structure
-
-```text
-iot-microstrip-patch-antenna-2.4ghz/
-│
-├── CST_Model/
-│   ├── CST_SAFIT.cst
-│   └── CST_SAFIT_2_ProjectArchive.zip
-│
-├── Figures/
-│   ├── antenna_geometry.png
-│   ├── geometrical_dimensions.png
-│   ├── simulated_s11.png
-│   ├── efficiency_gain_vswr.png
-│   ├── radiation_patterns.png
-│   ├── fabrication_vna_setup.png
-│   └── simulated_measured_comparison.png
-│
-├── Documentation/
-│   └── microwave_engineering_lab_report.pdf
-│
-└── README.md
-```
-
-## Author
-
-**Shahziar Karim Safit**  
-Department of Electrical & Electronic Engineering  
-Rajshahi University of Engineering & Technology (RUET)
-
-## Team Members
-
-- Ankon Datta
-- Shahziar Karim Safit
-- Md. Jubayer Hossain Shawon
-
-## References
-
-The complete references used in the accompanying report are available in `Documentation/microwave_engineering_lab_report.pdf`.
